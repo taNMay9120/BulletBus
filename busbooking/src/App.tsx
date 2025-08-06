@@ -1,11 +1,15 @@
-// import { MarqueeDemo } from "./components/demo";
-import { GlobeDemo } from "./components/globedemo";
+import { MarqueeDemo } from "./components/demo";
+// import { HeroParallaxDemo } from "./components/hero/hero";
+import { NavbarDemo } from "./components/navbar";
 
 function App() {
   return (
     <>
-      <GlobeDemo />
+      <NavbarDemo />
+      
+      {/* <HeroParallaxDemo /> */}
       {/* <MarqueeDemo /> */}
+
     </>
   );
 }
